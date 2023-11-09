@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.justcode_motion_hw.databinding.FragmentMainBinding
+import com.example.justcode_motion_hw.StartFragment as StartFragment
 
 class MainFragment: Fragment() {
 
@@ -22,5 +24,14 @@ class MainFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        
+        binding.button.setOnClickListener {
+//             findNavController().navigate(MainFragmentDirections
+//                     .actionMainFragmentToStartFragment)
+        }
+
+
     }
+
+
 }

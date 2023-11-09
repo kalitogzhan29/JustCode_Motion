@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">JustCode_Motion_Hw</string>
+    <string name="s1">Улица</string>
+    <string name="s2">Реклама</string>
+    <string name="s3">Ста́туя Свобо́ды</string>
+    <string name="s4">Ста́туя Свобо́ды</string>
+    <string name="s5">Песик</string>
+    <string name="s6">Мост</string>
+
 </resources>
